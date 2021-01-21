@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void) {
+int i;
+int y=0;
+int size;
+int array[i];
+
+printf("How many random numbers would you like to generate?: ");
+scanf("%d", &size);
+   
+printf("\n\nNum : Val\n");
+printf("----------\n");
+
+for(i=0; i<size; i++)
+    {
+    array[i]= rand()%1001;
+    printf("%d\t:\t%d\n",y++,array[i]);
+    }
+return 0;
+}
